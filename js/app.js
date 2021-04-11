@@ -1,5 +1,5 @@
 //fetch api data over http or https
-if (location.protocol === "http:") {
+if (location.protocol === "https:") {
  url =
     "https://api.openweathermap.org/data/2.5/weather?lat=21.1682895&lon=-101.6723306&units=imperial&APPID=ec50a6072ac189dee111acdd3a38ab9f";
 }
